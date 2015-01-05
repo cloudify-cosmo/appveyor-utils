@@ -24,5 +24,5 @@ Create new tox `testenv`:
 [testenv:pywin]
 deps =
     ...
-basepython = {env:PYTHON}\python.exe
+basepython = {env:PYTHON:}\python.exe
 ```
